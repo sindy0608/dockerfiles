@@ -21,6 +21,7 @@ ENV NODE_ID=0                     \
     FAST_OPEN=false
 
 COPY . /root/shadowsocks
+COPY requirements.txt /requirements.txt
 WORKDIR /root/shadowsocks
 
 RUN  apk --no-cache add \
