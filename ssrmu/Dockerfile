@@ -18,7 +18,6 @@ ENV NODE_ID=0                     \
     MYSQL_USER=ss                 \
     MYSQL_PASS=ss                 \
     MYSQL_DB=shadowsocks          \
-    REDIRECT=github.com           \
     FAST_OPEN=false
 
 COPY . /root/shadowsocks
